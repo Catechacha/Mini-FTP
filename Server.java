@@ -1,9 +1,3 @@
-/*MINI FTP: Scrivere un servizio di trasferimento di file. Il client
- * invia al server il nome di un file (di testo), preso dalla linea di comando
- * Il server risponde spedendo al cliente il contenuto del file riga per riga
- * Il client salva il contenuto in un file locale con lo stesso nome.
- * Gestire situazioni di errore (FileNotFound,...) */
-
 import java.io.*;
 import java.net.*;
 import java.util.concurrent.*;
